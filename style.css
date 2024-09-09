@@ -98,14 +98,28 @@ padding-top: 10px;
     width: 100%;
     margin-top: 50px;
 }
+
+@media only screen and (max-width: 1115px){
+    
+        
+    
+    .mycards_img{
+        gap: 1px;
+        margin-left: 0px;
+
+
+        
+    }
+}
 @media only screen and (max-width: 1114px){
     .mycards{
         display: block;
-        margin-left: 38%;
+        
+        margin-left: 35%;
     }
     .mycards_img{
         display: block;
-        margin-left: 38%;
+        margin-left: 35%;
     }
 }
 @media only screen and (max-width: 930px){
@@ -119,12 +133,47 @@ padding-top: 10px;
 @media only screen and (max-width: 481px){
     .mycards{
         
+        margin-left: 10%;
+    }
+    .mycards_img{
+        
+        margin-left: 15%;
+    }
+}
+@media only screen and (max-width: 337px){
+    .mycards{
+        
+        margin-left: 5%;
+    }
+    .mycards_img{
+        
+        margin-left: 10%;
+        
+    }
+}
+    @media only screen and (max-width: 319px){
+        .mycards{
+            
+            margin-left: 1%;
+        }
+        .mycards_img{
+            
+            margin-left: 3%;
+            
+        }
+    
+}
+@media only screen and (max-width: 307px){
+    .mycards{
         margin-left: 0px;
     }
     .mycards_img{
         
-        margin-left: 0px;
+        margin-left: 3%;
+        
     }
+    
 }
+
 
     
