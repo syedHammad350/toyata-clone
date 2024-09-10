@@ -87,17 +87,102 @@ padding-top: 10px;
    justify-content: center;
 }
 
-    
-
-   
-    
-
-.myfooter{
+.my_mainfooter{
     background-color: black;
-    height: 500px;
+    height: 900px;
     width: 100%;
     margin-top: 50px;
+    display: flex;
+    gap: 50px;
 }
+.myfooter1{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.footer_heading1{
+    color: white;
+}
+.footer_para1{
+    color: gray;
+}
+.footer_heading_para1{
+    display: flex;
+    gap: 5px;
+}
+.footer_heading_para2{
+    display: flex;
+    gap: 5px;
+}
+.footer_heading_para3{
+    display: flex;
+    gap: 5px;
+}
+.footer_heading_para4{
+    display: flex;
+    gap: 5px;
+}
+.myfooter2{
+    margin-top: 50px;
+}
+.footer_heading2{
+    color: white;
+}
+.footer_para2{
+    color: gray;
+}
+.footer_heading3{
+    color: white;
+}
+.footer_para3{
+    color: gray;
+}
+.footer_heading4{
+    color: white;
+}
+.footer_para4{
+    color: gray;
+}
+.footer_heading5{
+    color: white;
+}
+.footer_para5{
+    color: gray;
+}
+.myfooter3{
+    margin-top: 50px;
+}
+.footer_heading6{
+    color: white;
+}
+.footer_para6{
+    color: gray;
+}
+.footer_heading7{
+    color: white;
+}
+.footer_para7{
+    color: gray;
+}
+.myfooter4{
+    margin-top: 50px;
+}
+.footer_heading8{
+    color: white;
+}
+.footer_para8{
+    color: gray;
+}
+.footer_heading9{
+    color: white;
+}
+.footer_para9{
+    color: gray;
+}
+.footer_heading10{
+    color: white;
+}
+
+
 
 @media only screen and (max-width: 1115px){
     
@@ -173,6 +258,20 @@ padding-top: 10px;
         
     }
     
+}
+@media only screen and (max-width: 853px){
+    
+        
+    
+    .my_mainfooter{
+       display: block;
+       height: 100%;
+
+        
+    }
+    .myfooter1{
+        margin-left: 0px;
+    }
 }
 
 
